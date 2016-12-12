@@ -11,11 +11,14 @@ public class ex02 {
 		System.out.println("請輸入數字: ");
 		String str = scn.nextLine();
 		String a[]=(str.split(" "));
+		int sun=0;
 		int data[]=new int [a.length];
 		for(int i=0;i<a.length;i++){
 			data[i]=Integer.valueOf(a[i]);
-			System.out.print(data[i]+" ");
+			//System.out.print(data[i]+" ");
+			sun+=data[i];
 		}
-		
+		System.out.println("\nSize: "+data.length);
+		System.out.println("Avg: "+(sun/3));
 	}
 }
