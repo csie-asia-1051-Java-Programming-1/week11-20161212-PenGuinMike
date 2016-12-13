@@ -30,6 +30,6 @@ public class hw01 {
 			}
 		}
 		String text = new String(data);
-		System.out.println(" Text: "+text);
+		System.out.println(" 轉換成: "+text);
 	}
 }
