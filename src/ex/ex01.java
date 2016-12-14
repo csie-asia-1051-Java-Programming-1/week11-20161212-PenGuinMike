@@ -23,7 +23,6 @@ public class ex01 {
 		for(int i=0;i<data1[2];i++){
 			data2[i]=scn.nextInt();
 		}
-		
 		for(int i=0;i<data2.length-1;i++){
 			for(int j=0;j<data2.length-1;j++){
 				if(data2[j+1]>data2[j]){
@@ -41,7 +40,8 @@ public class ex01 {
 		}else{
 			System.out.println("impossible");
 		}
-
 	}
-
+public static void fun1(){
+	
+		}
 }
