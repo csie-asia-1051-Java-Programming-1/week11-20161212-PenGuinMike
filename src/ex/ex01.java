@@ -21,6 +21,21 @@ public class ex01 {
 			for(int i=0;i<3;i++){
 				data1[i]=scn.nextInt();
 			}
+			boolean flag = true;
+			int y=0;
+			while(flag){
+				for(int i=1;i<3-1;i++){
+					if(data1[i]>data1[i+1]){
+						System.out.println("您輸入的第"+i+"筆資料有錯: ");
+						data1[i]=scn.nextInt();
+					}else if(data1[i]>data1[0]){
+						System.out.println("您輸入的第"+i+"筆資料有錯: ");
+						data1[i]=scn.nextInt();
+					}else{
+						flag=false;
+					}
+				}
+			}
 			int data2 []=new int [data1[2]];
 		
 			for(int i=0;i<data1[2];i++){
