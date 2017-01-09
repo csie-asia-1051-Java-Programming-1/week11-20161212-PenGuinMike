@@ -58,7 +58,8 @@ public class ex01 {
 			}else{
 				save[x]=-1;
 			}x++;
-		}for(int i=0;i<dataSize;i++){
+		}//while end~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+		for(int i=0;i<dataSize;i++){
 			if(save[i]>0){
 				System.out.println(save[i]);
 			}else if(save[i]==-1){
